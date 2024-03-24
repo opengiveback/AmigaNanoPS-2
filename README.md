@@ -16,31 +16,44 @@ This is a small revision of v1.1 of the design. As v1.0 had wrongl wired gnd, so
 Arduino Nano pins connections
 -----------------------------
 3 = P_PS2_CLK
+
 2 = P_PS2_DATA
 
 1 = Button MouseDPI
 
 0 = GamePort Button1
+
 A0 = GamePort Axis X1
+
 A3 = GamePort Axis Y1
+
 5 = GamePort Button2
+
 13 = GamePort Button3
+
 A1 = GamePort Axis X2
+
 A2 = GamePort Axis Y2
+
 A6 = GamePort Button4
+
 
 A4, A5 = I2C connector
 
 // Output pins
-12 = P_AMIGA_V_PULSE// Purple
-11 = P_AMIGA_H_PULSE// Brown
-10 = P_AMIGA_VQ_PULSE// Blue
-9 = P_AMIGA_HQ_PULSE// White
-8 = P_AMIGA_LMB// Yellow
-7 = P_AMIGA_RMB// Green
-6 = P_AMIGA_MMB// Orange
+12 = P_AMIGA_V_PULSE
 
+11 = P_AMIGA_H_PULSE
 
+10 = P_AMIGA_VQ_PULSE
+
+9 = P_AMIGA_HQ_PULSE
+
+8 = P_AMIGA_LMB
+
+7 = P_AMIGA_RMB
+
+6 = P_AMIGA_MMB
 
 
 
