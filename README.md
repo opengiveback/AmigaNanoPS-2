@@ -9,7 +9,7 @@ An experimental PCB to enable using existing Arduino Nano based sourcecode to co
 Pins were selected to suit this software opensource project : https://github.com/asig/amiga-ps2-mouse-adapter
 
 Licensed under GPL3.
-The PCB is provided "AS IS", no warranties of correctness or fitness for purpose are implied nor expressed. You use the schematic on your own responsability, if you break something usig it it is not my fault. Be warned. \par
+The PCB is provided "AS IS", no warranties of correctness or fitness for purpose are implied nor expressed. You use the schematic on your own responsability, if you break something using it, or make stuff blow up and burn and destroy/harm someone, it is not my fault. Use on your own responsibility. Be warned.
 
 **Caution! Please note!
 NEVER connect Arduino Nano to  USB power source and Amiga at the same time! The design only has a diode from power source pin from Amiga joyport, to prevent powering Amiga from the device, but other considerations were not made. Take care to not draw more than 50mA, as 100mA is max. for both Amiga Joyports, and some Amigas (Amiga 500?) don't have proper protection from overdraw. Beware of excess RGB and DPI resolution.**
