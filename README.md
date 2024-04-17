@@ -12,7 +12,7 @@ Licensed under GPL3.
 The PCB is provided "AS IS", no warranties of correctness or fitness for purpose are implied nor expressed. You use the schematic on your own responsability, if you break something usig it it is not my fault. Be warned. \par
 
 **Caution! Please note!
-NEVER connect Arduino Nano to  USB power source and Amiga at the same time! The design only has a diode from power source pin from Amiga joyport, to prevent powering Amiga from the device, but other considerations were not made.**
+NEVER connect Arduino Nano to  USB power source and Amiga at the same time! The design only has a diode from power source pin from Amiga joyport, to prevent powering Amiga from the device, but other considerations were not made. Take care to not draw more than 50mA, as 100mA is max. for both Amiga Joyports, and some Amigas (Amiga 500?) don't have proper protection from overdraw. Beware of excess RGB and DPI resolution.**
 
 The Arduino Nano can be socketed to be able to reuse it for other Arduino Nano projects! Insert Arduino Nano with USB facing DB9 connector and do not connect USB cable to inserted Arduino Nano!
 
