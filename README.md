@@ -16,7 +16,7 @@ NEVER connect Arduino Nano to  USB power source and Amiga at the same time! The 
 
 The Arduino Nano can be socketed to be able to reuse it for other Arduino Nano projects! Insert Arduino Nano with USB facing DB9 connector and do not connect USB cable to inserted Arduino Nano!
 
-This is a small revision of v1.1 of the design. As v1.0 had wrongl wired gnd, so wire had to be added from DB9 to gnd on the mounting hole of DB9 connector. I also modified and used the PCB for an PS/2 to MSX mouse convertor project, tested working OK, that version is available in a separate repository https://github.com/opengiveback/eqUInputMSX
+I also modified and used the PCB for an PS/2 to MSX mouse convertor project, tested working OK, that version is available in a separate repository https://github.com/opengiveback/eqUInputMSX
 
 Arduino Nano pins connections
 -----------------------------
@@ -68,6 +68,9 @@ Pullup resistors (10k) for buttons and pulldown resistors (100k) for analog line
 
 Revision 1.6.
 5v wiring was corrected for the optional gameport and i2c oled connectors.
+
+Revision 1.5.
+This is a small revision of v1.1 of the design. As v1.0 had wrongly wired gnd, so wire had to be added from DB9 to gnd on the mounting hole of DB9 connector.
 
 ![Screenshot](./amigaps2back.png)
 If you make it and sell it, please consider I declare my opengiveback.org principle requirements at 15% (FAIR) of earnings. Check out more about my opengiveback.org concept at www.opengiveback.org
