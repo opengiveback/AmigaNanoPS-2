@@ -1,6 +1,9 @@
-**Arduino Nano based Amiga PS/2 mouse adapter PCB**
+**Arduino Nano based Amiga PS/2 mouse adapter PCB revision 1.7**
 Please use at least the 1.6 revision, 5v wiring was corrected for the optional gameport and i2c oled connectors.
 ![Screenshot](./amigaps2front.png)
+
+Made with nostalgia in Serbia. :)
+
 An experimental PCB to enable using existing Arduino Nano based sourcecode to convert PS/2 mouse to Amiga mouse signals. Also has an additional Gameport connector wired to appropriate analogue input pins on Arduino Nano, to enable connecting an analogue old PC joystick, a button (for selecting mouse resolution), and even an I2C connection for PinSockets 2.54mm, to allow for connecting other I2C devices (accelerometers or screens).
 
 Pins were selected to suit this software opensource project : https://github.com/asig/amiga-ps2-mouse-adapter
@@ -57,7 +60,7 @@ A4, A5 = I2C connector
 
 6 = P_AMIGA_MMB
 
-
+Pullup resistors (10k) for buttons and pulldown resistors (100k) for analog lines of Gameport were added in revision 1.7.
 
 ![Screenshot](./amigaps2back.png)
 If you make it and sell it, please consider I declare my opengiveback.org principle requirements at 15% (FAIR) of earnings. Check out more about my opengiveback.org concept at www.opengiveback.org
