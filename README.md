@@ -1,6 +1,6 @@
 **Arduino Nano based Amiga PS/2 mouse adapter PCB revision 1.7**
 
-![Screenshot](./amigaps2front.png)
+![Screenshot](./rev1.7.png)
 
 Made with nostalgia in Serbia. :)
 
